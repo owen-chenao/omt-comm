@@ -1,0 +1,120 @@
+.classpath
+.project
+target/
+.settings/
+.idea/
+*.iml
+node_modules/
+/logs 
+*.css.map
+*.scss
+
+### macOS ###
+.DS_Store
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+*.lck
+
+*.ipr
+*.iws
+
+/transaction-logs/
+**/transaction-logs/
+
+# BlueJ files
+*.ctxt
+
+.project
+**/.project
+
+.classpath
+**/.classpath
+
+.settings
+**/.settings
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+
+# Package Files #
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+
+target/
+/target/
+**/target/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Exclude file or directory not commit git server
+.idea
+.idea/
+**/.idea
+
+node_modules/
+**/.idea/
+**/node_modules/
+
+.gradle
+**/.gradle/
+
+
+
+**/build
+build/
+
+*.iml
+**/*.iml
+
+!gradle-wrapper.jar
+.gradletasknamecache
+ 
+package-lock.json
+**/package-lock.json
+
+## JRebel 热部署排除配置文件
+**/rebel.xml
+**/rebel-remote.xml
+**/.rebel.xml.bak
+**/.rebel-remote.xml.bak
+
+**/~/.grunt-init/
+
+# gradle项目排除设置
+**/.gradle
+/build/
+
+# Ignore Gradle GUI enums
+gradle-app.setting
+
+
+**/.factorypath
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/ 
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.gradle
+
+# 排除git插件maven-git-commit-id-plugin的生成信息
+# git.properties
